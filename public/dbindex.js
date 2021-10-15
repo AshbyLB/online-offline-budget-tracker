@@ -34,7 +34,7 @@ const checkDatabase = () => {
                 method: "POST",
                 body: JSON.stringify(getAll.result),
                 headers: {
-                    Accept: "application/json, text/plain, */*",
+                    Accept: "text/plain, application/json, */*",
                     "Content-Type": "application/json"
                 }
             })

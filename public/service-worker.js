@@ -32,8 +32,7 @@ const FILES_TO_CACHE = [
           return cacheNames.filter(
             cacheName => !currentCaches.includes(cacheName)
           );
-        })
-        .then(cachesToDelete => {
+        }).then(cachesToDelete => {
           return Promise.all(
             cachesToDelete.map(cacheToDelete => {
               return caches.delete(cacheToDelete);
