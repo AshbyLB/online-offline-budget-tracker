@@ -23,7 +23,7 @@ All you need to do for this application is navigate to the site link provided ab
 Ashby Blakely 
 
 ## Screenshot
-![screenshot]()
+![screenshot](./public/assets/images/offlineonlinebudget.png)
 
 ## License
 MIT
