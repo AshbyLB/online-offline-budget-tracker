@@ -3,7 +3,11 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 
+//pulling in the packages to be able to use 
+
 var PORT = process.env.PORT || 3000;
+
+// process.env if for heroku to be able to set its own port.  if not, it falls to 3000 for
 
 const app = express();
 
